@@ -4,7 +4,7 @@ echo "This script enable ASD for BTFM \n"
 echo "====================START====================\n"
 beforeFW=/home/george_chiu/ASUS/share/auto_asd_enable/before/BTFM.bin
 afterFW=/home/george_chiu/ASUS/share/auto_asd_enable/after/BTFM.bin
-asdenableFW=/home/george_chiu/ASUS/project/ZF7/AQ-mr0-8250-bsp/APQ_BTR/sm8250_btfm/btfm_proc/bt/build/ms/bin/QCA6690/default/asd/htnv20.bin
+asdenableFW=/home/george_chiu/ASUS/project/ZF7/AQ-mr0-8250-bsp/APQ_BTR/sm8250_btfm/btfm_proc/bt/build/ms/bin/QCA6690/default/pl11/asd/htnv20.bin
 echo "The original BTFM is: \n ${beforeFW}\n"
 cp ${beforeFW} .
 echo "The asd enable BTFM is:\n ${asdenableFW}\n"
